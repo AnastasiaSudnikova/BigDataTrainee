@@ -1,0 +1,6 @@
+id,created_date,content,rating
+1,2025-01-15 10:00:00,Hello world!,5
+2,2025-01-16 14:30:00,This is a test comment,4
+3,2025-01-17 09:15:00,null,3
+4,2025-01-18 22:00:00,Amazing!!! Hi,5
+5,2025-01-19 08:00:00,Too short,2
