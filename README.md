@@ -128,7 +128,7 @@ docker-compose up -d --build
 
 ## Автор
 *Судникова Анастасия*  
-[GitHub](https://github.com/твой-логин)
+[GitHub](https://github.com/AnastasiaSudnikova/BigDataTrainee)
 
 ---
 
