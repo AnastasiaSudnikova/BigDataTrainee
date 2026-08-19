@@ -26,7 +26,8 @@ webserver_config.py
 .DS_Store
 
 # Data files (опционально — если не хочешь заливать большие файлы)
-# data/*.csv
+data/step1.csv
+data/step2.csv
 
 # Docker
 .docker/
