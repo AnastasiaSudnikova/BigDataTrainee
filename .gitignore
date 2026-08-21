@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+*.venv
+
+# Airflow logs
+logs/
+*.log
+
+# Airflow local settings
+airflow.db
+airflow.cfg
+webserver_config.py
+*.pid
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Data files (опционально — если не хочешь заливать большие файлы)
+data/step1.csv
+data/step2.csv
+
+# Docker
+.docker/
+*.tmp
+
+# Miscellaneous
+*.tmp
+*.bak
+*.swp
+*~
