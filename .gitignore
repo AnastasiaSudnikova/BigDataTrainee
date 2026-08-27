@@ -1,0 +1,15 @@
+# Системные файлы PyCharm
+.idea/
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+
+bom_explosion_result.csv
+
