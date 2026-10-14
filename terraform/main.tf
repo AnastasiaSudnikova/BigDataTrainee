@@ -13,7 +13,7 @@ provider "google" {
   region  = var.region
 }
 
-# 1. Bucket for Bronze (Raw Data)
+
 resource "google_storage_bucket" "raw_bucket" {
   name                     = "${var.project_id}-raw-${var.env}"
   location                 = var.region
@@ -30,7 +30,7 @@ resource "google_storage_bucket" "raw_bucket" {
   }
 }
 
-# 2. Secret Manager for API Key
+
 resource "google_secret_manager_secret" "weather_api_key" {
   secret_id = "tomorrow-io-api-key"
 
@@ -48,7 +48,7 @@ resource "google_secret_manager_secret_version" "weather_api_key_version" {
   secret_data = var.weather_api_key
 }
 
-# 3. BigQuery Dataset & Tables (Silver/Gold)
+
 resource "google_bigquery_dataset" "weather_dataset" {
   dataset_id = "weather_data_${var.env}"
   location   = var.region
